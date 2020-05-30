@@ -8,3 +8,6 @@
 4. Type `adb devices` in the terminal a few times, accept the prompt that will show up on your phone
 5. Open the terminal and navigate (`cd`) into the directory you cloned/extracted the repo files
 6. Type `chmod +x ./sd.sh` and `./sd.sh` and watch the magic happen.
+
+### Supported devices?
+This script works with any Android device, but works best with Huawei, Honor and Sansung phones/tablets.
