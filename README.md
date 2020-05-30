@@ -1,5 +1,6 @@
 # StarterDebloater
 > Shell (bash) script that removes tracking and bloatware on your Android devices.
+
 The days of privacy and minimalism by default are gone. More and more OEM's install apps on their customer's devices. Some manufacturers' phones [https://www.reddit.com/r/news/comments/3k2m8n/malware_found_preinstalled_on_xiaomi_huawei/](can have pre-installed malware) or [https://www.gsmarena.com/huawei_to_preinstall_70_popular_android_apps_on_its_future_smartphones-news-41430.php](70+ pre-installed popular apps) which is a privacy concern.
 
 ### Usage
