@@ -2,12 +2,12 @@
 echo "Starter Debloater by DogeSoftware"
 echo "This app will remove unessecary apps on your devices. Root is not needed."
 echo "The developer is not responsible for any damage or data loss caused by this script!"
-echo "Before starting, make sure ADB is installed and your device shows up as 'device' in the 'adb list' command."
+echo "Before starting, make sure ADB is installed and your device shows up as 'device' in the 'adb devices' command."
 echo "This app removes some keyboard apps and browsers. Installing AnySoftKeyboard and an alternative browser on your device before running this script is recommended."
 
 read -p "Press ENTER to continue or press CTRL + C on your keyboard to quit...";echo
 
-echo "--- 1. Removing Retail demo ---"
+echo "--- 1. Removing Huawei Retail demo ---"
 adb shell pm uninstall -k --user 0 com.huawei.retaildemo
 
 echo "--- 2. Removing (some) Google apps ---"
@@ -21,7 +21,7 @@ adb shell pm uninstall -k --user 0 com.google.android.apps.tachyon # Google Duo
 adb shell pm uninstall -k --user 0 com.google.android.apps.cloudprint
 adb shell pm uninstall -k --user 0 com.google.android.apps.photos 
 adb shell pm uninstall -k --user 0 com.google.android.apps.docs # Google Drive
-adb shell pm uninstall -k --user 0 com.google.android.feedback
+adb shell pm uninstall -k --user 0 com.google.android.feedbackDogeSoftware/StarterDebloater
 adb shell pm uninstall -k --user 0 com.google.android.play.games
 adb shell pm uninstall -k --user 0 com.google.android.music
 adb shell pm uninstall -k --user 0 com.google.android.apps.magazines
