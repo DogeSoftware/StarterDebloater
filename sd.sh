@@ -57,6 +57,7 @@ adb shell pm uninstall -k --user 0 com.microsoft.translator
 adb shell pm uninstall -k --user 0 com.facebook.appmanager
 adb shell pm uninstall -k --user 0 com.facebook.services
 adb shell pm uninstall -k --user 0 com.facebook.system
+adb shell pm uninstall -k --user 0 com.ebay.carrier
 
 echo "--- 4. Removing Huawei apps ---"
 adb shell pm uninstall -k --user 0 com.huawei.appmarket
