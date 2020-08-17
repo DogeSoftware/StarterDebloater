@@ -36,6 +36,7 @@ adb shell pm uninstall -k --user 0 com.google.android.syncadapters.contacts
 adb shell pm uninstall -k --user 0 com.google.android.apps.fitness
 adb shell pm uninstall -k --user 0 com.google.android.apps.plus
 adb shell pm uninstall -k --user 0 com.google.android.apps.email # Gmail
+adb shell pm uninstall -k --user 0 com.google.android.gm # Gmail
 adb shell pm uninstall -k --user 0 com.google.android.inputmethod.latin # GBoard
 
 
@@ -87,6 +88,11 @@ adb shell pm uninstall -k --user 0 com.huawei.geofence
 adb shell pm uninstall -k --user 0 com.huawei.mirror # Huawei Mirror
 adb shell pm uninstall -k --user 0 com.huawei.android.totemweather # Huawei Weather
 adb shell pm uninstall -k --user 0 com.huawei.android.mirrorshare # MirrorShare feature?
+adb shell pm uninstall -k --user 0 com.huawei.hicloud # Huawei Cloud
+adb shell pm uninstall -k --user 0 com.huawei.powergenie # Huawei PowerGenie; an annoying process that kills any app that runs in the background
+adb shell pm uninstall -k --user 0 com.huawei.hitouch # HiTouch
+adb shell pm uninstall -k --user 0 com.huawei.android.karaoke # What is this even lmao
+adb shell pm uninstall -k --user 0 com.huawei.intelligent # What is this even lmao #2
 
 echo "--- 5. Removing Samsung bloatware ---"
 adb shell pm uninstall -k --user 0 com.samsung.svoice.sync
