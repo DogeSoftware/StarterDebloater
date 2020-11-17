@@ -13,3 +13,6 @@ The days of privacy and minimalism by default are gone. More and more OEM's inst
 
 ### Supported devices?
 This script works with any Android device, but works best with Huawei, Honor and Sansung phones/tablets. **Please note that you are responsible for any damages caused by this script. One of the members of this organisation bricked her phone by running this script (luckily, the damage was reversed with very little data loss though)**
+
+### Can I revert the removal process?
+Yes - use `revert.sh` for that. Please note that this script wasn't entirely tested, but it was proven to unbrick devices (if they have been bricked by StarterDebloater).
